@@ -1,1 +1,3 @@
 # Longest-Compounded-Word
+
+The Compound Word Analyzer is a program that identifies the longest and second-longest compound words from a list of words. I have used a Trie data structure for efficient word storage and lookup, enabling quick identification of compound words (words formed by concatenating two or more shorter words). The program processes input files containing one word per line, outputs the results to the console, and includes the processing time for each file. To use, simply compile and run the program, ensuring the input files are in the same directory. This solution is scalable and provides accurate results for large datasets.
