@@ -102,7 +102,7 @@ public void loadWordsFromfile(String filepath) {
         }
     } catch (IOException e) {
         System.err.println("Error reading file: " + filepath);
-        ;
+        
         e.printStackTrace();
         System.exit(1);
     }
@@ -159,7 +159,7 @@ public void loadWordsFromfile(String filepath) {
             this.remaining=remaining;
         }
     }
-
+// Main class to Execute program
     public class Main {
         public static void main(String[] args){
             CompoundWordAnalyzer analyzer1 = new CompoundWordAnalyzer();
